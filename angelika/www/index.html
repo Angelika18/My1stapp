@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+ <center>   <script type="text/javascript">
+ function changeBG(){
+    var selectedBGColor = document.getElementById("bgchoice").value;
+    document.body.style.backgroundColor = selectedBGColor;
+    }
+    </script>
+   <font size="28">
+        Ooopss...</font><br>
+ <h3>Drop down to select the color you want.</h3>
+    <select id="bgchoice" onchange="changeBG()">
+    <option value="default">Default</Font></option>
+    <option value="red">Red</option>
+    <option value="ivory">Ivory</option>
+    <option value="pink">Pink</option>
+    <option value="blue">Blue</option>
+    <option value="cyan">Cyan</option>
+    <option value="yellow">Yellow</option>
+    <option value="skyblue">Skyblue</option>
+    <option value="violet">Violet</option>
+    <option value="yellowgreen">Yellow Green</option>
+    <option value="magenta">Magenta</option>
+    <option value="gray">Gray</option>
+    <option value="orange">Orange</option></select><br>
+<h1><b>Contents</b></h1>
+<textarea rows="30" cols="50" name="freedom" form="usrform"></textarea><br>
+<a href="index.html"><button type="button" onclick="alert('SAVE!!!')"><font size="10">Add</font></button><br>
+<button type="button"><font size="10">Clear</font></button></a>
+</center>
+</body>
+</html>
